@@ -17,5 +17,5 @@ Do Until oExcel.Cells(intRow,1).Value = ""
 	WScript.Sleep(10000)
 	intRow = intRow + 1
 Loop
-
+' test
 oExcel.Quit
